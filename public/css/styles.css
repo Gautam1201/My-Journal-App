@@ -49,17 +49,15 @@ p{
 }
 
 .footer {
-  position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
+  width: 100%;
 	text-align: center;
 	height: 60px;
 	background-color: #343a40;
+  padding: 25px;
+  overflow: hidden;
 }
 
 .footer p {
-	margin-top: 25px;
 	font-size: 1.5rem;
   color: #fff;
 }
