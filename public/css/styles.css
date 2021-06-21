@@ -1,0 +1,179 @@
+body{
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  font-family: 'Pacifico', cursive;
+}
+
+p{
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    background-color: #3f3e3e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-default .navbar-nav >li >a, .navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+    transition: 0.2s;
+}
+
+
+.navbar-default .navbar-brand{
+  transition: 0.2s;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+	text-align: center;
+	height: 60px;
+	background-color: #343a40;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 1.5rem;
+  color: #fff;
+}
+
+.greet, .main-blog-heading{
+  text-align: center;
+}
+
+.greet > h2{
+  letter-spacing: 2px;
+  margin: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.display-blogs{
+  margin: 0 auto;
+}
+
+.individual-blog{
+  border: 2px solid;
+  background-color: #eee;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  min-width: 350px;
+}
+
+.individual-blog > p{
+  margin-top: 20px;
+}
+
+.main-blog-heading{
+  padding-top: 25px;
+  letter-spacing: 3px;
+}
+
+.display-blogs{
+  padding:25px;
+  width: 75%;
+}
+
+.main-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  place-content: center;
+  margin-top: 75px;
+}
+
+.about-img{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7EfW2qqAwF0Drur7TKjO2EqZKgUJ3gbh112aP0PSevsXonRWfqx48WNUe1Dz4Ugy2CnE&usqp=CAU");
+  background-size: cover;
+  position: relative;
+}
+
+.about-img > img{
+  border-radius: 50%;
+  border: 2px solid #fff;
+  outline: #fff;
+  width: 35%;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  background-color: #fff;
+}
+
+.about-me{
+  margin: auto;
+  color: #343a40;
+}
+
+.about{
+  display: grid;
+  overflow: hidden;
+  text-align: center;
+  grid-gap: 40px;
+  box-shadow: 5px 9px 8px 4px;
+  border-radius: 25px;
+  max-width: 75%;
+  min-width: 325px;
+  grid-template-rows: 150px 200px;
+}
+
+.fab{
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+.fa-github:hover{
+  color: black;
+
+}
+
+.fa-linkedin:hover, .fa-facebook:hover{
+  color: #228be6;
+}
+
+.fab-icons{
+  text-decoration: none;
+  color: #464545;
+}
+
+#blogTitle, #blogContent{
+  border-radius: 10px;
+}
+
+.compose-title{
+  margin: 25px 75px 0;
+}
+
+.compose-blog{
+  margin: 50px;
+  padding: 25px;
+  padding-top: 0;
+  width: 75%;
+}

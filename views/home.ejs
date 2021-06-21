@@ -1,0 +1,29 @@
+<%- include("./partials/header"); %>
+
+<div class="greet">
+  <h2>HOME</h2>
+  <p><%= homeContent.greeting %></p>
+  <p><%= homeContent.desc %></p>
+</div>
+
+<div class="enteries">
+  <h1 class="main-blog-heading">ENTRIES</h1>
+  <div class="display-blogs">
+    <% posts.forEach(function(post){ %>
+    <div class = "individual-blog">
+      <h2><%= post.postTitle %></h2>
+      <% if(post.postBody.length > 100){ %>
+      <p>
+        <%= post.postBody.substring(0,200) + " ..."%>
+        <a href="/posts/<%= post.postTitle %>">Read More</a>
+      </p>
+      <% }else{ %>
+      <p><%= post.postBody%></p>
+
+      <% } %>
+    </div>
+    <% }); %>
+  </div>
+</div>
+
+<%- include("./partials/footer"); %>
