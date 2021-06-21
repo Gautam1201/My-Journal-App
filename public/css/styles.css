@@ -49,17 +49,21 @@ p{
 }
 
 .footer {
+<<<<<<< HEAD
   position: fixed;
   left: 0;
   bottom: 0;
+=======
+>>>>>>> 7324059bbbfc0cb9b8b664322d6f971b021b2976
   width: 100%;
 	text-align: center;
 	height: 60px;
 	background-color: #343a40;
+  padding: 25px;
+  overflow: hidden;
 }
 
 .footer p {
-	margin-top: 25px;
 	font-size: 1.5rem;
   color: #fff;
 }
