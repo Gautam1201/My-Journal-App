@@ -3,7 +3,7 @@ const express = require("express");
 const _ = require('lodash');
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DB_URI, { useNewUrlParser: true , useUnifiedTopology: true });
+mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true , useUnifiedTopology: true });
 
 const postSchema = new mongoose.Schema({
   postTitle: String,
@@ -66,10 +66,8 @@ app.post("/compose",(req,res)=>{
   });
 });
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 8000;
-}
+let port = process.env.PORT || 8000;
+
 app.listen(port,function(){
   console.log("Server has Started");
 });
