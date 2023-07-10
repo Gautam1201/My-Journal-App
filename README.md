@@ -1,6 +1,6 @@
 # MY JOURNAL
 
-[My Journal Web Page](https://gentle-basin-06869.herokuapp.com/) created using EJS, nodeJS and mongoDB and deployed on [Heroku](https://www.heroku.com/).
+[My Journal Web Page](https://journalapp.adaptable.app/) created using EJS, nodeJS and mongoDB and deployed on [Heroku](https://adaptable.io/).
 
 ## Screenshot
 <br><br>
